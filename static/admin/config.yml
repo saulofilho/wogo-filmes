@@ -25,10 +25,11 @@ collections:
           widget: hidden,
           default: BlogPost,
         }
-      - { name: date, label: Data, widget: datetime, dateFormat: "DD.MM.YYYY" }
-      - { name: title, label: Título, widget: string }
+      - { name: date, label: Data, widget: datetime, dateFormat: "DD.MM.YYYY", required: false }
+      - { name: title, label: Título, widget: string, required: false }
       - { name: img, label: Imagem, widget: image, required: false }
-      - { name: body, label: Body, widget: markdown }
+      - { name: body, label: Body, widget: markdown, required: false }
+      - { name: vimeo, label: Vimeo, widget: markdown, required: false }
   # - name: convencoes
   #   label: Convencoes
   #   folder: _data/convencoes

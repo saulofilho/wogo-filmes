@@ -4,11 +4,20 @@ import './PostLink.scss'
 
 const PostLink = ({ post }) => (
   <div className="post-item">
-    <p className="date-info">
-      {post.frontmatter.date}
-    </p>
     <Link to={post.fields.slug} className="post-link">
-      {post.frontmatter.title}
+      {post.frontmatter.img ? <div>
+        {post.frontmatter.img && <div className="img-home"
+          style={{
+            backgroundImage: `url(${post.frontmatter.img})`
+          }} />}
+      </div> : ''
+      }
+      {post.frontmatter.vimeo ?
+        <div
+          className="vimeo-home"
+          dangerouslySetInnerHTML={{ __html: post.frontmatter.vimeo }}
+        /> : ''
+      }
     </Link>
   </div>
 )

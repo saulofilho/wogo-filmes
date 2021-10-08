@@ -2,8 +2,9 @@ import React from "react"
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import { Link } from 'gatsby'
-import { PlusCircle } from 'react-feather'
 import Layout from "../components/Layout"
+import Home from '../components/Home'
+import QuemSomos from '../components/QuemSomos'
 import PostLink from "../components/PostLink"
 
 const IndexPage = ({
@@ -25,16 +26,13 @@ const IndexPage = ({
           <title>{site.siteMetadata.title}</title>
           <meta name="description" content={site.siteMetadata.description} />
         </Helmet>
-        <section className="noticias-home container">
-          <h3>Exemplo</h3>
+        <Home />
+        <QuemSomos />
+        <section className="trabalhos-home container">
+          <h3>Trabalhos</h3>
           <div className="posts-list">
             {Posts}
           </div>
-          <Link to={"/Exemplo"}>
-            <PlusCircle
-              className="plus"
-            />
-          </Link>
         </section>
     </Layout>
   )
@@ -59,10 +57,13 @@ export const pageQuery = graphql`
             slug
           }
           id
+          html
           excerpt(pruneLength: 250)
           frontmatter {
             date(formatString: "DD.MM.YYYY")
             title
+            img
+            vimeo
           }
         }
       }

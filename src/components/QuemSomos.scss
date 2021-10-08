@@ -1,0 +1,23 @@
+.quem-wrapper {
+  width: 100%;
+}
+.quem-row {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 50px;
+}
+.quem-col {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.quem-wrapper img {
+  width: 100%;
+  padding-right: 10px;
+}

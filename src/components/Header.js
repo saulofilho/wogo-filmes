@@ -24,10 +24,18 @@ const Header = () => {
           </div>
         </div>
         <div className="header-right-desk">
-          <Link to={"/Exemplo"}>Exemplo</Link>
+          <Link to={"/about"}>Quem somos</Link>
+          <Link to={"/trabalhos"}>Trabalhos</Link>
+          <Link to={"/clientes"}>Nossos clientes</Link>
+          <Link to={"/cinemaetv"}>Cinema e TV</Link>
+          <Link to={"/contato"}>Contato</Link>
         </div>
         <div className="header-right-mob">
-          <Link to={"/Exemplo"}>Exemplo</Link>
+          <Link to={"/about"}>Quem somos</Link>
+          <Link to={"/trabalhos"}>Trabalhos</Link>
+          <Link to={"/clientes"}>Nossos clientes</Link>
+          <Link to={"/cinemaetv"}>Cinema e TV</Link>
+          <Link to={"/contato"}>Contato</Link>
         </div>
         <button
           className="button-blank menu-button"

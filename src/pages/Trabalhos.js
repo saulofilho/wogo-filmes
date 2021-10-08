@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { graphql } from 'gatsby'
 import Layout from "../components/Layout"
-import './Exemplo.scss'
+import './Trabalhos.scss'
 import TypeChecker from 'typeco';
 import loadable from '@loadable/component'
 import PostSection from "../components/PostSection"
@@ -9,7 +9,7 @@ import PostSection from "../components/PostSection"
 const SearchField = loadable(() => import('react-search-field'))
 const Paginator = loadable(() => import('react-hooks-paginator'))
 
-const Exemplo = ({
+const Trabalhos = ({
   data: {
     allMarkdownRemark: { edges }
   },
@@ -44,7 +44,7 @@ const Exemplo = ({
   <Layout>
     <div className="Noticias container">
       <div className="noticias-header">
-        <h1>Exemplo</h1>
+        <h1>Trabalhos</h1>
         <p>There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...</p>
         <SearchField
           placeholder="Busque por uma palavras-chave"
@@ -66,9 +66,9 @@ const Exemplo = ({
   )
 }
 
-export default Exemplo
+export default Trabalhos
 export const pageQuery = graphql`
-  query ExemploQuery {
+  query TrabalhosQuery {
     allMarkdownRemark(
       filter: {frontmatter: {template: {eq: "BlogPost"}}}
       sort: { order: DESC, fields: [frontmatter___date] }
