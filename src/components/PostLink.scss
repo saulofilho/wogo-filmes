@@ -1,0 +1,22 @@
+.post-item {
+  padding: 0 0 30px 0;
+}
+.post-link {
+  font-family: var(--lora-serif);
+  color: var(--dark-gray);
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.post-link:hover {
+  color: var(--light-gray);
+  font-style: italic;
+}
+.date-info {
+  font-family: var(--inria-sans);
+  color: var(--light-gray);
+}
+@media (max-width: 576px) {
+  .post-link {
+    font-size: 1rem;
+  }
+}

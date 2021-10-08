@@ -1,0 +1,81 @@
+.Blog-post {
+  padding-top: 30px;
+}
+.post h1 {
+  font-family: var(--lora-serif);
+  color: var(--blue);
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding: 0 0 30px 0;
+  line-height: 2rem;
+  text-align: center;
+}
+.blog-post-content p:first-child {
+  text-indent: 5rem;
+}
+.blog-post-content p {
+  font-family: var(--lora-serif);
+  color: var(--dark-gray);
+  font-size: 1rem;
+  line-height: 1.7rem;
+  padding-bottom: 30px;
+}
+.blog-post-content h4 {
+  font-family: var(--inria-sans);
+  color: var(--dark-gray);
+  font-size: 1.3rem;
+  padding-bottom: 10px;
+}
+.blog-post-content p strong {
+  font-weight: bolder;
+}
+.blog-post-content a {
+  font-family: var(--lora-serif);
+  color: var(--dark-gray);
+  font-size: 1rem;
+  line-height: 1.7rem;
+  padding-bottom: 30px;
+  font-style: italic;
+}
+.voltar {
+  padding-bottom: 30px;
+}
+.voltar a {
+  font-family: var(--inria-sans);
+  color: var(--light-gray);
+  font-weight: bolder;
+  font-size: 1rem;
+  padding-bottom: 30px;
+}
+.voltar a:hover {
+  color: var(--dark-gray);
+  font-style: italic;
+}
+.post-date {
+  text-align: center;
+  font-family: var(--inria-sans);
+  color: var(--light-gray);
+  font-weight: bolder;
+  font-size: 1rem;
+  padding-bottom: 20px;
+}
+.post-fonte {
+  font-family: var(--inria-sans);
+  color: var(--light-gray);
+  font-weight: bolder;
+  font-size: 1rem;
+  padding-bottom: 50px;
+}
+@media (max-width: 576px) {
+  .post h1 {
+    text-indent: 0;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+  .blog-post-content p:first-child {
+    text-indent: 0;
+  }
+  .blog-post-content p {
+    font-size: 1rem;
+  }
+}
