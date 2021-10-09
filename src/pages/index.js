@@ -7,6 +7,8 @@ import Home from '../components/Home'
 import QuemSomos from '../components/QuemSomos'
 import PostLink from "../components/PostLink"
 
+// https://origamid.com/projetos/flexbox-guia-completo/
+
 const IndexPage = ({
   data: {
     site,

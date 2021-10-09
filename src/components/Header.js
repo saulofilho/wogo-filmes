@@ -19,22 +19,21 @@ const Header = () => {
         <div className="header-left">
           <div className="logo-header">
             <Link to={"/"}>
-              <img src={Logo} alt="logo blog" />
+              {/* <img src={Logo} alt="logo blog" /> */}
+              LOGO
             </Link>
           </div>
         </div>
         <div className="header-right-desk">
-          <Link to={"/about"}>Quem somos</Link>
           <Link to={"/trabalhos"}>Trabalhos</Link>
-          <Link to={"/clientes"}>Nossos clientes</Link>
-          <Link to={"/cinemaetv"}>Cinema e TV</Link>
+          <Link to={"/clientes"}>Clientes</Link>
+          <Link to={"/cinema-tv"}>Cinema e TV</Link>
           <Link to={"/contato"}>Contato</Link>
         </div>
         <div className="header-right-mob">
-          <Link to={"/about"}>Quem somos</Link>
           <Link to={"/trabalhos"}>Trabalhos</Link>
-          <Link to={"/clientes"}>Nossos clientes</Link>
-          <Link to={"/cinemaetv"}>Cinema e TV</Link>
+          <Link to={"/clientes"}>Clientes</Link>
+          <Link to={"/cinema-tv"}>Cinema e TV</Link>
           <Link to={"/contato"}>Contato</Link>
         </div>
         <button

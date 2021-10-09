@@ -8,7 +8,7 @@
   flex-flow: row;
   justify-content: center;
   align-items: flex-start;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 .quem-col {
   width: 100%;
@@ -17,7 +17,20 @@
   flex-flow: column;
   align-items: center;
 }
+.quem-col h2 {
+  font-family: var(--lora-serif);
+  text-align: left;
+  width: 100%;
+}
+.quem-col p {
+  font-family: var(--inria-sans);
+  text-align: left;
+  width: 100%;
+}
 .quem-wrapper img {
   width: 100%;
   padding-right: 10px;
+}
+@media (max-width: 576px) {
+
 }

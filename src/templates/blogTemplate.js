@@ -40,7 +40,7 @@ export default function Template({
               /> : ''
             }
             <div className="voltar">
-              <Link to="/Trabalhos">⟵ Voltar</Link>
+              <Link to="/trabalhos">⟵ Voltar</Link>
             </div>
           </div>
         </article>

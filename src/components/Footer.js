@@ -4,7 +4,28 @@ import './Footer.scss'
 const FooterWrapper = () => {
   return (
     <footer>
-      <p>wogo filmes footer</p>
+      <div className="footer-wrapper">
+        <div className="infos">
+          <p>R. Santo Irineu</p>
+          <p>Bosque da Saúde</p>
+          <p>Floripa, BR</p>
+        </div>
+        <div className="infos">
+          <p>hi@wogofilmes.com</p>
+        </div>
+        <div className="infos">
+          <p>instagram</p>
+          <p>linkedin</p>
+          <p>facebook</p>
+        </div>
+      </div>
+      <div className="copyright">
+        <p>
+          Copyright © 2021 WOGO FILMES.
+          <br />
+          All rights reserved.
+        </p>
+      </div>
     </footer>
   )
 }
