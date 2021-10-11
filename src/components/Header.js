@@ -6,8 +6,6 @@ import Logo from '../../static/assets/logo.png'
 import './Header.scss'
 
 const Header = () => {
-  // const [isOpenArrow, setIsOpenArrow] = useState(false);
-  // const [isOpenArrowTwo, setIsOpenArrowTwo] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const menuClassNames = isOpen ? 'header-wrapper-active container' : 'header-wrapper container';
 
@@ -20,7 +18,7 @@ const Header = () => {
           <div className="logo-header">
             <Link to={"/"}>
               {/* <img src={Logo} alt="logo blog" /> */}
-              LOGO
+              WOGO FILMES
             </Link>
           </div>
         </div>

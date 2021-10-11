@@ -1,5 +1,6 @@
 .quem-wrapper {
   width: 100%;
+  padding-top: 150px;
 }
 .quem-row {
   width: 100%;
@@ -32,5 +33,13 @@
   padding-right: 10px;
 }
 @media (max-width: 576px) {
-
+  .quem-row {
+    flex-flow: column;
+  }
+  .quem-col img {
+    padding-bottom: 10px;
+  }
+  .quem-col p {
+    padding-bottom: 50px;
+  }
 }

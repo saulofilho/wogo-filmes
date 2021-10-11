@@ -1,7 +1,10 @@
 .header-blog {
   height: auto;
   width: 100%;
-  background: var(--yellow);
+  background: transparent;
+  position: fixed;
+  z-index: 9;
+  margin-bottom: 50px;
 }
 .header-blog a {
   cursor: pointer;

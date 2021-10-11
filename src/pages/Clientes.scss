@@ -7,6 +7,7 @@
   align-items: center;
   text-align: center;
   font-family: var(--lora-serif);
+  padding-top: 150px;
 }
 .nossos-clientes-logos {
   display: grid;
@@ -18,5 +19,13 @@
   width: 180px;
 }
 @media (max-width: 576px) {
-
+  .nossos-clientes-logos {
+    display: grid;
+    grid-template-columns: unset;
+    grid-gap: 5px;
+    padding-top: 50px;
+  }
+  .nossos-clientes-logos img {
+    width: 100%;
+  }
 }

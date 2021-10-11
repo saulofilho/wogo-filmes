@@ -20,30 +20,20 @@ collections:
       preview: false
     fields:
       - {
-          label: Template,
           name: template,
+          label: Template,
           widget: hidden,
           default: BlogPost,
         }
       - { name: date, label: Data, widget: datetime, dateFormat: "DD.MM.YYYY", required: false }
       - { name: title, label: Título, widget: string, required: false }
       - { name: img, label: Imagem, widget: image, required: false }
-      - { name: body, label: Body, widget: markdown, required: false }
+      - { name: body, label: Texto, widget: markdown, required: false }
       - { name: vimeo, label: Vimeo, widget: markdown, required: false }
-  # - name: convencoes
-  #   label: Convencoes
-  #   folder: _data/convencoes
-  #   slug: '{{day}}-{{month}}-{{year}}-{{slug}}'
-  #   create: true
-  #   editor:
-  #     preview: false
-  #   fields:
-  #     - {
-  #         label: Template,
-  #         name: template,
-  #         widget: hidden,
-  #         default: ConvencoesPost,
-  #       }
-  #     - { name: date, label: Data, widget: datetime, dateFormat: "DD.MM.YYYY" }
-  #     - { name: name, label: Nome, widget: string }
-  #     - { name: arquivo, label: Arquivo, widget: file }
+      - {
+          name: featured,
+          label: Destaque na home,
+          widget: select,
+          required: false,
+          options: ['img', 'vimeo']
+        }
