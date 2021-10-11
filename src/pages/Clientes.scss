@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: var(--lora-serif);
+  font-family: var(--staat);
   padding-top: 150px;
 }
 .nossos-clientes-logos {
@@ -27,5 +27,8 @@
   }
   .nossos-clientes-logos img {
     width: 100%;
+  }
+  .clientes-wrapper {
+    padding-top: 100px;
   }
 }

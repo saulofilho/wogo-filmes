@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: var(--lora-serif);
+  font-family: var(--staat);
   padding-top: 150px;
 }
 .cine-header-wrapper {
@@ -14,5 +14,7 @@
   padding-bottom: 50px;
 }
 @media (max-width: 576px) {
-
+  .cinematv-wrapper {
+    padding-top: 100px;
+  }
 }

@@ -7,19 +7,15 @@ import Home from '../components/Home'
 import QuemSomos from '../components/QuemSomos'
 import PostLink from "../components/PostLink"
 
-// https://origamid.com/projetos/flexbox-guia-completo/
-
 const IndexPage = ({
   data: {
     site,
     allMarkdownRemark: { edges },
-  },
-  limit = 3
+  }
 }) => {
 
   const Posts = edges
     .filter(edge => !!edge.node.frontmatter.date)
-    .slice(0, limit)
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
 
   return (
@@ -30,8 +26,8 @@ const IndexPage = ({
         </Helmet>
         <Home />
         <QuemSomos />
-        <section className="trabalhos-home container">
-          <h3>Trabalhos</h3>
+        <section className="trabalhos-home-index container">
+          <h1>Trabalhos</h1>
           <div className="posts-list">
             {Posts}
           </div>

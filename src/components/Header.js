@@ -40,12 +40,12 @@ const Header = () => {
         >
           {isOpen ?
             <X
-              color={"#0d518c"}
+              color={"var(--blue)"}
               className="x"
             />
               :
             <Menu
-              color={"#0d518c"}
+              color={"var(--blue)"}
               className="menu"
             />}
         </button>

@@ -3,13 +3,15 @@ import { Link } from "gatsby"
 import './PostLink.scss'
 
 const PostLink = ({ post }) => (
-  <div className="post-item">
-    <Link to={post.fields.slug} className="post-link">
+  <Link to={post.fields.slug} className="post-link">
+    <div className="post-item">
       {post.frontmatter.featured === 'img' ?
-        <div className="img-home"
-          style={{
-            backgroundImage: `url(${post.frontmatter.img})`
-          }} /> : ''
+        // <div className="img-home"
+        //   style={{
+        //     backgroundImage: `url(${post.frontmatter.img})`
+        //   }} />
+        <img src={post.frontmatter.img} alt="" />
+        : ''
       }
       {post.frontmatter.featured === 'vimeo' ?
         <div
@@ -17,7 +19,7 @@ const PostLink = ({ post }) => (
           dangerouslySetInnerHTML={{ __html: post.frontmatter.vimeo }}
         /> : ''
       }
-    </Link>
-  </div>
+    </div>
+  </Link>
 )
 export default PostLink

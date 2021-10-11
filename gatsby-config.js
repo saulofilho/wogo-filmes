@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Wogo Filmes`,
+    title: `WOGO FILMES`,
     description: `Description example.`,
     siteUrl: `https://wogofilmes.com.br`,
     home: {
-      title: `Wogo Filmes`,
+      title: `WOGO FILMES`,
       description: `Description example.`,
     }
   },
@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Wogo Filmes`,
-        short_name: `Wogo Filmes`,
+        name: `WOGO FILMES`,
+        short_name: `WOGO FILMES`,
         start_url: `/`,
         background_color: `#0d518c`,
         theme_color: `#0d518c`,

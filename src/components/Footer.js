@@ -4,7 +4,7 @@ import './Footer.scss'
 const FooterWrapper = () => {
   return (
     <footer>
-      <div className="footer-wrapper">
+      <div className="footer-wrapper container">
         <div className="infos">
           <p>R. Santo Irineu</p>
           <p>Bosque da Saúde</p>
