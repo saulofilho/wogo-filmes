@@ -7,7 +7,6 @@ import Filme2 from '../../static/assets/quemsomos/17-publi.mp4'
 
 import Matheus from '../../static/assets/matheus.png'
 import Richard from '../../static/assets/Richard.png'
-import Nos from '../../static/assets/Richard.png'
 
 const QuemSomos = () => {
   return (

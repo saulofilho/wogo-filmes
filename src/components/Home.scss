@@ -9,6 +9,11 @@
   font-family: var(--staat);
   padding: 150px 350px;
 }
+.home-wrapper h3 {
+  font-family: var(--inria-sans);
+  text-transform: uppercase;
+  font-size: larger;
+}
 .home-wrapper img {
   max-width: 100%;
   width: 100px;
@@ -37,5 +42,11 @@
 @media (max-width: 900px) {
   .home-wrapper {
     padding: 0 0;
+  }
+}
+@media (max-width: 900px) {
+  .home-wrapper h3 {
+    text-transform: uppercase;
+    font-size: unset;
   }
 }

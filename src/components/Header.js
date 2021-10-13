@@ -1,6 +1,9 @@
 import React, { useState } from "react"
 import { Link } from 'gatsby'
 import { Menu, X } from 'react-feather'
+import 'prismjs/themes/prism-okaidia.css'
+import ThemeChanger from "./ThemeChanger"
+
 import Logo from '../../static/assets/logos/wogo-filmes-logo.png'
 import './Header.scss'
 
@@ -25,8 +28,10 @@ const Header = () => {
           <Link to={"/clientes"}>Clientes</Link>
           <Link to={"/cinema-tv"}>Cinema e TV</Link>
           <Link to={"/contato"}>Contato</Link>
+          <ThemeChanger />
         </div>
         <div className="header-right-mob">
+          <ThemeChanger />
           <Link to={"/trabalhos"}>Trabalhos</Link>
           <Link to={"/clientes"}>Clientes</Link>
           <Link to={"/cinema-tv"}>Cinema e TV</Link>

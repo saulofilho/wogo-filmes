@@ -13,15 +13,15 @@ const FooterWrapper = () => {
           <p>Florianópolis - SC</p>
         </div>
         <div className="infos">
-          <p>contato@wogofilmes.com.br</p>
-        </div>
-        <div className="infos">
           <Link to={"https://instagram.com/wogofilmes"}>
-            <Instagram color={"var(--dark-gray)"} />
+            <Instagram color={"var(--text-color)"} />
           </Link>
           <Link to={"https://vimeo.com/wogofilmes"}>
-            <Film color={"var(--dark-gray)"} />
+            <Film color={"var(--text-color)"} />
           </Link>
+        </div>
+        <div className="infos">
+          <p>contato@wogofilmes.com.br</p>
         </div>
       </div>
       <div className="copyright">
