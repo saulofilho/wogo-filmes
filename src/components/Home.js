@@ -16,8 +16,10 @@ const Home = () => {
       </div>
       <div className="home-wrapper container">
         <h1>WOGO FILMES</h1>
-        <h2>Lorem Ipsum passages, and more recently with desktop publishing software</h2>
-        <h3>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</h3>
+        <h3>
+          Aqui as ideias que se transformam em vídeos capazes de conectar pessoas.
+          Do roteiro, à produção e à finalização completa de cada projeto.
+        </h3>
       </div>
     </>
   )

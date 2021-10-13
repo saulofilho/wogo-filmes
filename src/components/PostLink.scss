@@ -1,3 +1,18 @@
+.posts-list {
+  column-count: 4;
+  column-gap: 10px;
+}
+.post-link {
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin-bottom: 10px;
+  break-inside: avoid;
+}
+.post-link > .post-item {
+  grid-row: 1 / -1;
+  grid-column: 1;
+}
 .post-item {
   width: 100%;
   height: auto;
@@ -6,16 +21,19 @@
   width: 100%;
   height: auto;
 }
-.post-link {
-  width: 100%;
-  height: fit-content;
-}
 .vimeo-home {
   width: 100%;
   height: auto;
 }
+@media (max-width: 900px) {
+  .posts-list {
+    column-count: 2;
+    column-gap: 10px;
+  }
+}
 @media (max-width: 576px) {
-  .img-home {
-    height: 200px;
+  .posts-list {
+    column-count: 1;
+    column-gap: 10px;
   }
 }

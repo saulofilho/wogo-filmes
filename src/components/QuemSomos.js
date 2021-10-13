@@ -1,55 +1,60 @@
 import React from 'react'
 import './QuemSomos.scss'
-import Img from '../../static/assets/default-img.jpg'
-import { Link } from 'gatsby'
+import Matheus from '../../static/assets/matheus.png'
+import Richard from '../../static/assets/Richard.png'
+import Nos from '../../static/assets/Richard.png'
 
 const QuemSomos = () => {
   return (
     <div className="quem-wrapper container">
       <div className="quem-row">
         <div className="quem-col">
-          <img src={Img} alt="teste" />
+          <img src={Nos} alt="quem somos nós foto" />
         </div>
         <div className="quem-col">
-          <h2>Quem somos nós?</h2>
+          <h2>Quem somos nós</h2>
           <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old. Richard McClintock, a Latin professor
-            at Hampden-Sydney College in Virginia, looked up one of the more obscure
-            Latin words, consectetur, from a Lorem Ipsum passage, and going through
-            the cites of the word in classical literature.
+          Somos jovens e contadores de histórias! A Wogo Filmes é uma produtora
+          audiovisual que quer transformar o jeito como produzimos conteúdos e
+          entretenimento, nos mais diversos formatos: cinema, publicidade, internet e tv.
+          Acreditamos que é possível criar produtos de qualidade, que se conectem com os espectadores,
+          gerem impacto e que possam engajar o seu negócio. A cada projeto,
+          reunimos um time de profissionais do mercado, especialistas em suas áreas,
+          para trazer o melhor resultado.
           </p>
         </div>
       </div>
       <div className="quem-row">
         <div className="quem-col">
-          <img src={Img} alt="teste" />
+          <img src={Matheus} alt="Matheus" />
         </div>
         <div className="quem-col">
           <h2>Matheus Souza</h2>
+          <h4>
+            Diretor, Roteirista e Produtor Audiovisual
+          </h4>
           <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old. Richard McClintock, a Latin professor
-            at Hampden-Sydney College in Virginia, looked up one of the more obscure
-            Latin words, consectetur.
+            Atuo há mais de 10 anos no mercado audiovisual e tenho claro o meu
+            gosto por contar histórias, por cuidar dos detalhes, e por garantir a
+            qualidade técnica de cada material. Atendi diversas empresas da área e
+            pude confirmar que vídeos e filmes se tornaram essenciais nos dias de hoje.
+            Um jeito eficiente de se comunicar com diferentes gerações e estilos.
           </p>
         </div>
         <div className="quem-col">
-          <img src={Img} alt="teste" />
+          <img src={Richard} alt="Richard" />
         </div>
         <div className="quem-col">
           <h2>Richard Valentini</h2>
+          <h4>
+            Diretor, Roteirista e Produtor Audiovisual
+          </h4>
           <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old. Richard McClintock, a Latin professor
-            at Hampden-Sydney College in Virginia, looked up one of the more obscure
-            Latin words, consectetur, from a Lorem Ipsum passage, and going through
-            the cites of the word in classical literature, discovered the undoubtable source.
-            Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
-            Malorum".
+            Dizem que sou pragmático, mas prezo pela excelência, pelo propósito
+            e pelo significado. Mais de uma década de audiovisual, me deram a
+            sabedoria para equilibrar as necessidades do mercado e as minhas ambições artísticas.
+            Trabalhar com projetos inovadores, questionadores de paradigmas e que
+            apostem no potencial mais elevado do ser-humano, é o que faz meu coração vibrar.
           </p>
         </div>
       </div>

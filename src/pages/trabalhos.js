@@ -9,7 +9,7 @@ const Trabalhos = ({
     allMarkdownRemark: { edges }
   },
 }) => {
-  const posts = edges.map(edge => ({...edge.node}))
+  const posts = edges.map(edge => ({ ...edge.node }))
 
   const [data, setData] = useState([...posts]);
 
@@ -18,15 +18,18 @@ const Trabalhos = ({
   }, [data]);
 
   return (
-  <Layout>
-    <div className="trabalhos-home container">
-      <div className="trabalhos-wrapper">
-        <h1>Trabalhos</h1>
-        <p>There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...</p>
+    <Layout>
+      <div className="trabalhos-home container">
+        <div className="trabalhos-wrapper">
+          <h1>Trabalhos</h1>
+          <p>
+            Aqui as ideias que se transformam em vídeos capazes de conectar pessoas.
+            Do roteiro, à produção e à finalização completa de cada projeto.
+          </p>
+        </div>
+        <PostSection posts={data} />
       </div>
-      <PostSection posts={data} />
-    </div>
-  </Layout>
+    </Layout>
   )
 }
 

@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { Link } from 'gatsby'
 // import { ToggleLayer, Arrow, Transition } from "react-laag"
 import { Menu, X } from 'react-feather'
-import Logo from '../../static/assets/logo.png'
+import Logo from '../../static/assets/logos/wogo-filmes-logo.png'
 import './Header.scss'
 
 const Header = () => {
@@ -17,8 +17,7 @@ const Header = () => {
         <div className="header-left">
           <div className="logo-header">
             <Link to={"/"}>
-              {/* <img src={Logo} alt="logo blog" /> */}
-              WOGO FILMES
+              <img src={Logo} alt="logo blog" />
             </Link>
           </div>
         </div>

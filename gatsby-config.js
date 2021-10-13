@@ -5,7 +5,7 @@ module.exports = {
     siteUrl: `https://wogofilmes.com.br`,
     home: {
       title: `WOGO FILMES`,
-      description: `Description example.`,
+      description: `Aqui as ideias que se transformam em vídeos capazes de conectar pessoas. Do roteiro, à produção e à finalização completa de cada projeto..`,
     }
   },
   plugins: [
@@ -25,7 +25,7 @@ module.exports = {
         background_color: `#0d518c`,
         theme_color: `#0d518c`,
         display: `minimal-ui`,
-        icon: `static/assets/logo.png`,
+        icon: `static/assets/logos/logo.jpg`,
       }
     },
     'gatsby-plugin-offline',
