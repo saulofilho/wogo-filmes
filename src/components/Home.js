@@ -1,6 +1,8 @@
 import React from 'react'
 import './Home.scss'
 
+import Logo from '../../static/assets/logos/Logo-Wogo.png'
+
 const Home = () => {
   return (
     <>
@@ -15,7 +17,7 @@ const Home = () => {
         </iframe>
       </div>
       <div className="home-wrapper container">
-        <h1>WOGO FILMES</h1>
+        <img src={Logo} alt="logo wogo filmes" />
         <h3>
           Aqui as ideias que se transformam em vídeos capazes de conectar pessoas.
           Do roteiro, à produção e à finalização completa de cada projeto.

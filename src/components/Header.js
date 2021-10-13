@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 import { Link } from 'gatsby'
-// import { ToggleLayer, Arrow, Transition } from "react-laag"
 import { Menu, X } from 'react-feather'
 import Logo from '../../static/assets/logos/wogo-filmes-logo.png'
 import './Header.scss'
@@ -39,7 +38,7 @@ const Header = () => {
         >
           {isOpen ?
             <X
-              color={"var(--blue)"}
+              color={"var(--yellow)"}
               className="x"
             />
               :

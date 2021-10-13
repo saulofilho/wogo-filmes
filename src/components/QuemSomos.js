@@ -1,5 +1,10 @@
 import React from 'react'
 import './QuemSomos.scss'
+
+import Surf from '../../static/assets/quemsomos/16-publi.jpg'
+import Filme1 from '../../static/assets/quemsomos/grafico.mp4'
+import Filme2 from '../../static/assets/quemsomos/17-publi.mp4'
+
 import Matheus from '../../static/assets/matheus.png'
 import Richard from '../../static/assets/Richard.png'
 import Nos from '../../static/assets/Richard.png'
@@ -9,20 +14,30 @@ const QuemSomos = () => {
     <div className="quem-wrapper container">
       <div className="quem-row">
         <div className="quem-col">
-          <img src={Nos} alt="quem somos nós foto" />
+          <video className="video-hero1" muted autoPlay>
+            <source src={Filme1} type="video/mp4" />
+            Your browser does not support HTML5 video.
+          </video>
         </div>
         <div className="quem-col">
           <h2>Quem somos nós</h2>
           <p>
-          Somos jovens e contadores de histórias! A Wogo Filmes é uma produtora
-          audiovisual que quer transformar o jeito como produzimos conteúdos e
-          entretenimento, nos mais diversos formatos: cinema, publicidade, internet e tv.
-          Acreditamos que é possível criar produtos de qualidade, que se conectem com os espectadores,
-          gerem impacto e que possam engajar o seu negócio. A cada projeto,
-          reunimos um time de profissionais do mercado, especialistas em suas áreas,
-          para trazer o melhor resultado.
+            Somos jovens e contadores de histórias! A Wogo Filmes é uma produtora
+            audiovisual que quer transformar o jeito como produzimos conteúdos e
+            entretenimento, nos mais diversos formatos: cinema, publicidade, internet e tv.
+            Acreditamos que é possível criar produtos de qualidade, que se conectem com os espectadores,
+            gerem impacto e que possam engajar o seu negócio. A cada projeto,
+            reunimos um time de profissionais do mercado, especialistas em suas áreas,
+            para trazer o melhor resultado.
           </p>
         </div>
+      </div>
+      <div className="quem-row-video">
+        <img src={Surf} alt="quem somos nós foto" />
+        <video className="video-hero2" muted autoPlay>
+          <source src={Filme2} type="video/mp4" />
+          Your browser does not support HTML5 video.
+        </video>
       </div>
       <div className="quem-row">
         <div className="quem-col">

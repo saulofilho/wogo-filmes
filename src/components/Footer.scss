@@ -2,12 +2,19 @@ footer {
   color: #000;
   height: auto;
 }
+footer .infos {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-flow: column;
+}
 .footer-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   padding: 50px 15px 10px;
   font-family: var(--inria-sans);
+  flex-flow: row;
 }
 .copyright {
   font-family: var(--inria-sans);
@@ -17,5 +24,10 @@ footer {
   text-align: center;
 }
 @media (max-width: 576px) {
-
+  .footer-wrapper {
+    flex-flow: column;
+  }
+  footer .infos {
+    margin-bottom: 30px;
+  }
 }

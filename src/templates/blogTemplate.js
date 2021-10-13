@@ -22,9 +22,6 @@ export default function Template({
             backgroundImage: `url(${post.frontmatter.img})`
           }} />}
         <article className="post">
-          <p className="post-date">
-            {post.frontmatter.date}
-          </p>
           <h1>
             {post.frontmatter.title}
           </h1>

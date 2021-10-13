@@ -9,53 +9,11 @@
   font-family: var(--staat);
   padding-top: 150px;
 }
-.contato-header-wrapper {
-  text-align: center;
-  padding-bottom: 50px;
-}
-.form-row {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  flex-flow: row;
-}
-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-  width: 100%;
+.contato-text {
   padding-top: 50px;
-}
-.form-texts {
-  width: 100%;
-}
-form input, form textarea, form select {
-  width: 100%;
-  padding: 12px;
-  border: 2px solid var(--dark-gray);
-  border-radius: 4px;
-  resize: vertical;
-  background: #fff;
-  color: #000;
-}
-form label {
-  padding: 10px 0;
-  display: inline-block;
-  width: 100%;
-}
-form button[type=submit] {
-  background-color: var(--dark-gray);
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  width: 100%;
-}
-form button[type=submit]:hover {
-  background-color: var(--light-gray);
+  font-family: var(--inria-sans);
+  margin-bottom: 20px;
+  text-align: center;
 }
 @media (max-width: 576px) {
   .contato-wrapper {
