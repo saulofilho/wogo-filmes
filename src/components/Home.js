@@ -2,19 +2,16 @@ import React from 'react'
 import './Home.scss'
 
 import Logo from '../../static/assets/logos/Logo-Wogo.png'
+import Intro from '../../static/assets/intro.mp4'
 
 const Home = () => {
   return (
     <>
       <div className="vimeo-wrapper">
-        <iframe
-          src="https://player.vimeo.com/video/76979871?background=1&autoplay=1&loop=1&byline=0&title=0"
-          frameBorder="0"
-          webkitallowfullscreen="true"
-          mozallowfullscreen
-          allowFullScreen
-        >
-        </iframe>
+        <video id="video-hero" muted autoPlay>
+          <source src={Intro} type="video/mp4" />
+          Your browser does not support HTML5 video.
+        </video>
       </div>
       <div className="home-wrapper container">
         <img src={Logo} alt="logo wogo filmes" />
