@@ -30,12 +30,6 @@ const Header = () => {
           <Link to={"/contato"}>Contato</Link>
           <ThemeChanger />
         </div>
-        <div className="header-right-mob">
-          <Link to={"/trabalhos"}>Trabalhos</Link>
-          <Link to={"/clientes"}>Clientes</Link>
-          <Link to={"/cinema-tv"}>Cinema e TV</Link>
-          <Link to={"/contato"}>Contato</Link>
-        </div>
         <button
           className="button-blank menu-button"
           onClick={() => setIsOpen(!isOpen)}

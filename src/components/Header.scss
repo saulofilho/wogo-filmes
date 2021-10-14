@@ -45,11 +45,6 @@
 .header-right-desk a:hover {
   color: var(--dark-gray);
 }
-.header-right-mob a {
-  font-family: var(--staat);
-  font-size: 16px;
-  color: var(--yellow);
-}
 .header-right-desk a:last-child {
   padding-right: 0px;
 }
@@ -79,27 +74,6 @@
 .menu-button {
   display: none;
 }
-.header-right-mob {
-  display: none;
-}
-.header-right-mob {
-  width: 100%;
-  height: 100%;
-}
-.header-right-mob ul {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-}
-.header-right-mob ul li {
-  padding-top: 25px;
-}
-.header-right-mob ul li a {
-  font-family: var(--inria-sans);
-  color: var(--dark-gray);
-  font-size: 1rem;
-}
 @media (max-width: 800px) {
   .header-blog .btns-wrapper {
     display: flex;
@@ -116,18 +90,22 @@
   .header-right-desk {
     display: none;
   }
-  .header-right-mob a {
-    padding-top: 20px;
-  }
-  .header-wrapper-active .header-right-mob {
+  .header-wrapper-active .header-right-desk {
     display: flex;
     flex-flow: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    height: 100%;
+  }
+  .header-wrapper-active {
+    justify-content: flex-start;
   }
   .layer {
     background: var(--light-blue);
     z-index: 99;
     width: 40%;
+  }
+  .header-right-desk a {
+    padding-right: 0;
   }
 }
