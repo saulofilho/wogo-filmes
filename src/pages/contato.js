@@ -16,7 +16,7 @@ const Contato = () => {
           <div className="contato-text">
             <img src={Logo} alt="wogo filmes logo" />
           </div>
-          <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact" action="/clientes">
+          <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact" action="/contato-ok">
             <input type="hidden" name="bot-field" />
             <input type="hidden" name="form-name" value="contact" />
             <label>Seu nome: <input type="text" name="name" placeholder="Seu Nome" /></label>
