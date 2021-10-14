@@ -1,12 +1,16 @@
 footer {
   color: var(--text-color);
   height: auto;
+  padding: 50px 0 0;
 }
 footer .infos {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-flow: column;
+}
+footer .infos a svg:hover {
+  stroke: var(--yellow);
 }
 .footer-wrapper {
   display: flex;

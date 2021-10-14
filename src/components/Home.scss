@@ -16,7 +16,7 @@
 }
 .home-wrapper img {
   max-width: 100%;
-  width: 100px;
+  width: 200px;
   margin-bottom: 20px;
 }
 #video-hero {
@@ -48,5 +48,8 @@
   .home-wrapper h3 {
     text-transform: uppercase;
     font-size: unset;
+  }
+  .home-wrapper img {
+    width: 100px;
   }
 }

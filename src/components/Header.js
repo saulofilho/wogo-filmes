@@ -31,7 +31,6 @@ const Header = () => {
           <ThemeChanger />
         </div>
         <div className="header-right-mob">
-          <ThemeChanger />
           <Link to={"/trabalhos"}>Trabalhos</Link>
           <Link to={"/clientes"}>Clientes</Link>
           <Link to={"/cinema-tv"}>Cinema e TV</Link>

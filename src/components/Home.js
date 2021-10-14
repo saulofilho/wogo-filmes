@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <div className="vimeo-wrapper">
-        <video id="video-hero" muted autoPlay>
+        <video id="video-hero" muted autoPlay loop>
           <source src={Intro} type="video/mp4" />
           Your browser does not support HTML5 video.
         </video>

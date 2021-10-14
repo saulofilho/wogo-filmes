@@ -2,8 +2,9 @@ import React from 'react'
 import './QuemSomos.scss'
 
 import Surf from '../../static/assets/quemsomos/16-publi.jpg'
-import Filme1 from '../../static/assets/quemsomos/grafico.mp4'
-import Filme2 from '../../static/assets/quemsomos/17-publi.mp4'
+import Festa from '../../static/assets/quemsomos/000-Mariela.jpg'
+// import Filme1 from '../../static/assets/quemsomos/grafico.mp4'
+import Filme2 from '../../static/assets/quemsomos/18-publi.mp4'
 
 import Matheus from '../../static/assets/matheus.png'
 import Richard from '../../static/assets/Richard.png'
@@ -13,10 +14,11 @@ const QuemSomos = () => {
     <div className="quem-wrapper container">
       <div className="quem-row">
         <div className="quem-col">
-          <video className="video-hero1" muted autoPlay>
+          {/* <video className="video-hero1" muted autoPlay>
             <source src={Filme1} type="video/mp4" />
             Your browser does not support HTML5 video.
-          </video>
+          </video> */}
+          <img src={Festa} alt="quem somos nós foto" className="img-festa" />
         </div>
         <div className="quem-col">
           <h2>Quem somos nós</h2>
@@ -32,13 +34,13 @@ const QuemSomos = () => {
         </div>
       </div>
       <div className="quem-row-video">
-        <img src={Surf} alt="quem somos nós foto" />
-        <video className="video-hero2" muted autoPlay>
+        <img src={Surf} alt="quem somos nós foto" className="img-surf" />
+        <video className="video-hero2" muted autoPlay loop>
           <source src={Filme2} type="video/mp4" />
           Your browser does not support HTML5 video.
         </video>
       </div>
-      <div className="quem-row">
+      <div className="quem-row img-socios">
         <div className="quem-col">
           <img src={Matheus} alt="Matheus" />
         </div>
