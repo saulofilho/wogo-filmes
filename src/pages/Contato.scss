@@ -10,10 +10,13 @@
   padding-top: 150px;
 }
 .contato-text {
-  padding: 80px 0 0 10px;
+  padding: 80px 10px 0 0;
   font-family: var(--inria-sans);
   margin-bottom: 20px;
-  text-align: left;
+  width: 100%;
+}
+.contato-text img {
+  max-width: 100%;
   width: 100%;
 }
 .form-row {
@@ -34,8 +37,19 @@ form {
 .form-texts {
   width: 100%;
 }
-form input, form textarea, form select {
+form input, form select {
   width: 100%;
+  padding: 12px;
+  border: 1px solid var(--dark-gray);
+  border-radius: 4px;
+  resize: vertical;
+  font-family: 'Rubik', sans-serif;
+  background: #fff;
+  color: #000;
+}
+form textarea {
+  width: 100%;
+  min-height: 300px;
   padding: 12px;
   border: 1px solid var(--dark-gray);
   border-radius: 4px;
