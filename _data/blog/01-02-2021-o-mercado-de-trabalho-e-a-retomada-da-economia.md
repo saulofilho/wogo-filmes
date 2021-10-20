@@ -9,7 +9,7 @@ vimeo: <div style="padding:56.25% 0 0 0;position:relative;"><iframe
   allow="autoplay; fullscreen; picture-in-picture"
   allowfullscreen></iframe></div><script
   src="https://player.vimeo.com/api/player.js"></script>
-featured: img
+featured: vimeo
 ---
 ## “Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...”
 
