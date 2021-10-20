@@ -5,7 +5,7 @@ backend:
   branch: main
 
 display_url: https://wogofilmes.com.br/
-logo_url: https://raw.githubusercontent.com/saulofilho/wogo-filmes/master/assets/logos/logo.jpg
+logo_url: https://wogofilmes.com.br/static/logos/logo.jpg
 
 media_folder: static/assets
 public_folder: /assets

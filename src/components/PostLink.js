@@ -6,18 +6,11 @@ const PostLink = ({ post }) => (
   <Link to={post.fields.slug} className="post-link">
     <div className="post-item">
       {post.frontmatter.featured === 'img' ?
-        // <div className="img-home"
-        //   style={{
-        //     backgroundImage: `url(${post.frontmatter.img})`
-        //   }} />
         <img src={post.frontmatter.img} alt="" />
-        : ''
-      }
-      {post.frontmatter.featured === 'vimeo' ?
-        <div
+        : <div
           className="vimeo-home"
           dangerouslySetInnerHTML={{ __html: post.frontmatter.vimeo }}
-        /> : ''
+        />
       }
     </div>
   </Link>
