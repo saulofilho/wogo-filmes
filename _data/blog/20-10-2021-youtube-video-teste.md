@@ -3,22 +3,34 @@ template: BlogPost
 date: 2021-10-20T15:39:01.281Z
 title: youtube video teste example
 img: /assets/17-46-99-49-71-90-5-11z.jpg
-vimeo: <iframe src="https://www.youtube.com/embed/54qi7I6NNGE?controls=0"
-  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
-  clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen></iframe>
+vimeo: <iframe width="100%" height="100%"
+  src="https://www.youtube.com/embed/6m_sdOGQ7JM?controls=0" title="YouTube
+  video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 featured: vimeo
 ---
-iajwioeopwkea mwdk adoa2 dpda l2-pplc kpal3 ap aowpaw a lkap
+iframe youtube width="100%" height="100%"
 
-<iframe src="https://www.youtube.com/embed/54qi7I6NNGE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/6m_sdOGQ7JM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-iajsdooajdj mowadpw 2aw lapx wa´[pp lxpawpwpwdxp awkax wap apwx
 
-<iframe src="https://www.youtube.com/embed/54qi7I6NNGE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-jisdjioasdioadiaioiajdias
 
-diaodioaodiwida
 
-nmadiwkodioaw djoiawoa
+iframe youtube width="100%" height="100%"
+
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/6m_sdOGQ7JM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+iframe youtube width="100%" height="100%"
+
+iframe youtube width="100%" height="100%"
+
+
+
+
+
+iframe youtube width="100%" height="100%"
