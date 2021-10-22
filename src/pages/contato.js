@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from "../components/Layout"
 import './Contato.scss'
 
-import Logo from '../../static/assets/logos/logo.jpg'
+// import Logo from '../../static/assets/logos/logo.jpg'
 
 const Contato = () => {
   return (
@@ -13,9 +13,9 @@ const Contato = () => {
           Vamos conversar?
         </p>
         <div class="form-row">
-          <div className="contato-text">
+          {/* <div className="contato-text">
             <img src={Logo} alt="wogo filmes logo" />
-          </div>
+          </div> */}
           <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact" action="/contato-ok">
             <input type="hidden" name="bot-field" />
             <input type="hidden" name="form-name" value="contact" />
