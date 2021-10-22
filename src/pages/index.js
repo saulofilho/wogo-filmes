@@ -25,12 +25,12 @@ const IndexPage = ({
         </Helmet>
         <Home />
         <QuemSomos />
-        <section className="trabalhos-home-index container">
+        <div className="trabalhos-home-index container">
           <h1>Trabalhos</h1>
           <div className="posts-list">
             {Posts}
           </div>
-        </section>
+        </div>
     </Layout>
   )
 }

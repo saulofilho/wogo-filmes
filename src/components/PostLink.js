@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 import './PostLink.scss'
 
 const PostLink = ({ post }) => (
-  <Link to={post.fields.slug} className="post-link">
-    <div className="post-item">
+  <div className="post-item">
+    <Link to={post.fields.slug} className="post-link">
       {post.frontmatter.featured === 'img' ?
         <img src={post.frontmatter.img} alt="" />
         : <div
@@ -12,7 +12,7 @@ const PostLink = ({ post }) => (
           dangerouslySetInnerHTML={{ __html: post.frontmatter.vimeo }}
         />
       }
-    </div>
-  </Link>
+    </Link>
+  </div>
 )
 export default PostLink

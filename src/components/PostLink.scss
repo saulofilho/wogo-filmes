@@ -1,29 +1,42 @@
 .posts-list {
+  -webkit-perspective: 1;
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
   column-count: 4;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
   column-gap: 10px;
+  width: 100%;
+  height: auto;
+  position: relative;
 }
-.post-link {
+.post-item {
   margin: 0;
   display: grid;
   grid-template-rows: 1fr auto;
-  margin-bottom: 10px;
-  break-inside: avoid;
+  -moz-column-break-inside: avoid;
+  -moz-page-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid-column;
+  -webkit-column-break-inside: avoid;
+  -webkit-backface-visibility: hidden;
+  position: relative;
+  transform: translateZ(0);
 }
-.post-link > .post-item {
+.post-item > .post-link {
   grid-row: 1 / -1;
   grid-column: 1;
-}
-.post-item {
-  width: 100%;
-  height: auto;
+  position: relative;
 }
 .post-item img {
   width: 100%;
   height: auto;
+  position: relative;
 }
 .vimeo-home {
   width: 100%;
   height: auto;
+  position: relative;
 }
 @media (max-width: 900px) {
   .posts-list {
