@@ -2,10 +2,27 @@
 template: BlogPost
 date: 2021-10-26T19:31:54.159Z
 title: Lumin Products
-vimeo: <div style="padding:125% 0 0 0;position:relative;"><iframe
-  src="https://player.vimeo.com/video/630302951?h=c96c15284c&title=0&byline=0&portrait=0"
-  style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
-  allow="autoplay; fullscreen; picture-in-picture"
-  allowfullscreen></iframe></div><script
-  src="https://player.vimeo.com/api/player.js"></script>
+vimeo: |-
+  <style type="text/css" media="screen">
+      #wrapper {
+          overflow: hidden;
+          position: relative;
+          width: 500px;
+          height: 560px;   /\* height x 2 \*/
+      }
+      #wrapper iframe {
+          position: absolute;
+          left: 0px;
+          top: -140px;  /\* video height / 2 \*/
+      }
+  </sytle>
+
+
+  <div id="wrapper">
+      <iframe id="player1" 
+          src="https://vimeo.com/438016217?loop=1&autoplay=1" 
+          width="500" height="560" <!-- vide height x 2 -->
+          frameborder="0">
+      </iframe>
+  </div>
 ---
