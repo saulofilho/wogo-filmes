@@ -3,12 +3,9 @@ template: BlogPost
 date: 2021-10-11T20:01:19.993Z
 title: Mariela vai à praia
 img: /assets/002-mariela.jpg
-vimeo: <div style="padding:56.25% 0 0 0;position:relative;"><iframe
-  src="https://player.vimeo.com/video/438016217?h=3b8d94aacb&title=0&byline=0&portrait=0"
-  style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
-  allow="autoplay; fullscreen; picture-in-picture"
-  allowfullscreen></iframe></div><script
-  src="https://player.vimeo.com/api/player.js"></script>
+vimeo: <iframe src="https://player.vimeo.com/video/438016217?h=3b8d94aacb"
+  width="640" height="360" frameborder="0" allow="autoplay; fullscreen;
+  picture-in-picture" allowfullscreen></iframe>
 featured: vimeo
 ---
 "Mariela vai à praia" acompanha de forma leve e divertida a jornada da personagem título que depois de ter fugido para o Rio de Janeiro, na esperança de se tornar uma atriz de sucesso, volta pela primeira vez em dois anos para a sua cidade natal, no litoral sul de Santa Catarina. Ali, ela precisa enfrentar as pessoas que deixou para trás; seus pais, seu irmão, suas amigas e seu antigo namorado. Todos ainda marcados por sua repentina saída, e surpresos por sua inesperada chegada. Afinal, eles continuam sem saber os motivos que a levaram a sair da cidade, e os que a fizeram voltar. 
