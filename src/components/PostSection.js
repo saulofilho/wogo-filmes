@@ -8,7 +8,7 @@ const PostSection = ({
   return (
     <>
       {posts.map(post => (
-        <div className="post-item" key={post.id}>
+        <div className="post-item-section" key={post.id}>
           <Link to={post.fields.slug} className="post-link">
             {post.frontmatter.title}
             <p className="excerpt">

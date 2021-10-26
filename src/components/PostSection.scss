@@ -22,7 +22,10 @@
 .img-home:hover {
   height: 400px;
 }
-.post-item a {
+.post-item-section {
+  width: 100%;
+}
+.post-item-section a {
   color: var(--dark-gray);
   text-decoration: none;
   margin-bottom: 10px;
