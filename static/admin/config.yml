@@ -37,3 +37,21 @@ collections:
           required: false,
           options: ['img', 'vimeo']
         }
+  - name: cinematv
+    label: Cinema e TV
+    folder: _data/cinematv
+    slug: '{{day}}-{{month}}-{{year}}-{{slug}}'
+    create: true
+    editor:
+      preview: false
+    fields:
+      - {
+          name: template,
+          label: Template,
+          widget: hidden,
+          default: CinemaTV,
+        }
+      - { name: img, label: Imagem, widget: image, required: false }
+      - { name: title, label: Título, widget: string, required: false }
+      - { name: subtitle, label: SubTítulo, widget: string, required: false }
+      - { name: body, label: Texto, widget: markdown, required: false }
