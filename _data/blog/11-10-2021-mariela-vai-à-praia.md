@@ -11,6 +11,4 @@ vimeo: <div style="padding:56.25% 0 0 0;position:relative;"><iframe
   src="https://player.vimeo.com/api/player.js"></script>
 featured: vimeo
 ---
-
-
-![teste]( "teste")
+![]()
