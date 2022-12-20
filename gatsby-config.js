@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Jamaica Company`,
+    title: `WOGO FILMES`,
     description: `Description example.`,
-    siteUrl: `https://jamaicacompany.club`,
+    siteUrl: `https://wogofilmes.com.br`,
     home: {
-      title: `Jamaica Company`,
-      description: `Jamaica Company - jamaicacompany.club`,
+      title: `WOGO FILMES`,
+      description: `Aqui as ideias que se transformam em vídeos capazes de conectar pessoas. Do roteiro, à produção e à finalização completa de cada projeto..`,
     }
   },
   plugins: [
@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Jamaica Company`,
-        short_name: `Jamaica Company`,
+        name: `WOGO FILMES`,
+        short_name: `WOGO FILMES`,
         start_url: `/`,
         background_color: `#0d518c`,
         theme_color: `#0d518c`,
