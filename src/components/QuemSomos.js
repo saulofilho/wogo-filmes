@@ -23,13 +23,11 @@ const QuemSomos = () => {
         <div className="quem-col">
           <h2>Quem somos nós</h2>
           <p>
-            Somos jovens e contadores de histórias! A Wogo Filmes é uma produtora
-            audiovisual que quer transformar o jeito como produzimos conteúdos e
-            entretenimento, nos mais diversos formatos: cinema, publicidade, internet e tv.
-            Acreditamos que é possível criar produtos de qualidade, que se conectem com os espectadores,
-            gerem impacto e que possam engajar o seu negócio. A cada projeto,
-            reunimos um time de profissionais do mercado, especialistas em suas áreas,
-            para trazer o melhor resultado.
+          Na Wogo Filmes, somos apaixonados por contar histórias de forma inovadora e envolvente. 
+          Somos mais do que uma produtora audiovisual; acreditamos no poder da transformação através do entretenimento. 
+          Nosso foco abrange uma variedade de formatos, desde o cinema até a publicidade, passando pela internet e televisão. 
+          Acreditamos que a qualidade é a chave para conquistar o público e gerar um impacto duradouro. 
+          A cada projeto, montamos uma equipe de especialistas do mercado, comprometidos em entregar resultados excepcionais.
           </p>
         </div>
       </div>
@@ -66,11 +64,9 @@ const QuemSomos = () => {
             Diretor, Roteirista e Produtor Audiovisual
           </h4>
           <p>
-            Dizem que sou pragmático, mas prezo pela excelência, pelo propósito
-            e pelo significado. Mais de uma década de audiovisual, me deram a
-            sabedoria para equilibrar as necessidades do mercado e as minhas ambições artísticas.
-            Trabalhar com projetos inovadores, questionadores de paradigmas e que
-            apostem no potencial mais elevado do ser-humano, é o que faz meu coração vibrar.
+          Dizem que sou pragmático, mas prezo pela excelência, pelo propósito e pelo significado. 
+          Mais de uma década de audiovisual, me deram a sabedoria para equilibrar as necessidades do mercado e as minhas ambições artísticas. 
+          Trabalhar com projetos inovadores, desafiadores e que apostem no potencial mais elevado do Ser-Humano, é o que me motiva.
           </p>
         </div>
       </div>
